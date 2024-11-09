@@ -12,6 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        rye: ['"Rye"', 'serif'], // Use double quotes and add "serif" as a fallback
+        'libre-bodoni': ['"Libre Bodoni"', 'serif'],
+      },
+
     },
   },
   plugins: [],
